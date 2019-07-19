@@ -1,6 +1,9 @@
 ## Ubuntu Terminal (Tmux+Powerline+Vim)
-
+#### Tmux
 ![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/terminal.png)
+
+#### Vim
+![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/vim.png)
 
 ##### 1. Install Powerline
 ```bash

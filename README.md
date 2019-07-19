@@ -1,15 +1,13 @@
 ## Ubuntu Terminal (Tmux+Powerline+Vim)
 
-##### 1. Powerline configuration
+##### 1. Install Powerline
 ```bash
 sudo apt install python-pip -y
 sudo pip install powerline-status
 sudo apt install vim -y
-vim ~/.bashrc 
-vim ~/.vimrc
 ```
 
-###### 1.1 Install powerline fonts
+###### 1.1 Install Powerline fonts
 ```bash
 sudo apt install fonts-powerline -y
 ```

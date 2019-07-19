@@ -1,5 +1,7 @@
 ## Ubuntu Terminal (Tmux+Powerline+Vim)
 
+![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/terminal.png)
+
 ##### 1. Install Powerline
 ```bash
 sudo apt install python-pip -y

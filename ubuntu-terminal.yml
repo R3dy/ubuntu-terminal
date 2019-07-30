@@ -97,7 +97,8 @@ config:
     red: "#fc4384"
     green: "#b3e33b"
     yellow: "#ffa727"
-    blue: "#75dff2"
+    #blue: "#75dff2"
+    blue: "#0e86ad"
     magenta: "#ae89fe"
     cyan: "#708387"
     white: "#d5d5d0"
@@ -105,264 +106,233 @@ config:
     brightRed: "#ff7fac"
     brightGreen: "#c8ed71"
     brightYellow: "#ebdf86"
-    brightBlue: "#75dff2"
+    #brightBlue: "#75dff2"
+    brightBlue: "#0e86ad"
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
     brightWhite: "#f9f9f4"
   
 # Records, feel free to edit them
 records:
-  - delay: 672
+  - delay: 687
     content: "\e[?1049h\e[?1h\e=\e[H\e[J\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[c\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;20r\e[1;1H\e[?25l\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;231m\e[48;5;233m                                                                                                                        \e[m\x0F\e[1;1H\e[34h\e[?25h\e[m\x0F\e[34l\e[34h\e[?25h\e[?1003l\e[?1006l\e[?2004l\e[1;1H\e[1;20r\e[?25l\e[1;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;231m\e[48;5;233m                                                                                                                        \e[m\x0F\e[1;1H\e[34h\e[?25h"
-  - delay: 30
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m <'env $POWERLIN\e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                     \e[38;5;233m\_\e[32m\_1.9\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.9\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h"
-  - delay: 849
-    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
-  - delay: 31
-    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F \e[K\e[1;20r\e[1;33H\e[?2004h"
-  - delay: 1461
-    content: l
-  - delay: 86
-    content: "\bls"
-  - delay: 361
-    content: ' '
-  - delay: 156
-    content: '-'
-  - delay: 205
-    content: l
-  - delay: 145
-    content: a
-  - delay: 137
-    content: h
-  - delay: 255
-    content: "\r\n\e[?2004l"
-  - delay: 12
-    content: "total 6832\r\ndrwxr-xr-x  10 royce  staff   320B Jul 30 13:50 \e[36m\e[1m.\r\n\e[m\x0Fdrwxr-xr-x  15 royce  staff   480B Jul 25 11:35 \e[36m\e[1m..\r\n\e[m\x0F-rw-r--r--   1 royce  staff   197B Jul 19 15:47 .bashrc\r\ndrwxr-xr-x  12 royce  staff   384B Jul 30 13:50 \e[36m\e[1m.git\r\n\e[m\x0F-rw-r--r--   1 royce  staff    82B Jul 19 15:47 .tmux.conf\r\n-rw-r--r--   1 royce  staff   114B Jul 19 15:47 .vimrc\r\n-rw-r--r--   1 royce  staff   952B Jul 30 13:44 README.md\r\n-rw-r--r--@  1 royce  staff   2.8M Jul 30 13:43 render1564512040835.gif\r\n-rw-r--r--   1 royce  staff   172K Jul 19 16:11 terminal.png\r\n-rw-r--r--   1 royce  staff   119K Jul 19 16:22 vim.png\r\n\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[13;1H \r"
-  - delay: 31
-    content: "\e[1;19r\e[14;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[6A\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F \e[K\e[1;20r\e[13;33H\e[?2004h"
-  - delay: 1672
-    content: "\e[?25l\e[20;1H\e[38;5;254m\e[48;5;31m\e[1m 3 \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.9\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[13;33H\e[34h\e[?25h"
-  - delay: 228
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h\e[?2004l"
-  - delay: 802
-    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
-  - delay: 35
-    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F \e[K\e[1;20r\e[1;33H\e[?2004h"
-  - delay: 1114
-    content: v
-  - delay: 54
-    content: "\bvi"
-  - delay: 114
-    content: m
-  - delay: 135
-    content: ' '
-  - delay: 122
-    content: .
-  - delay: 203
-    content: b
-  - delay: 90
-    content: a
-  - delay: 36
-    content: s
-  - delay: 198
-    content: "hrc\e[1m \e[m\x0F"
-  - delay: 566
-    content: "\b \b\r\n\e[?2004l"
-  - delay: 202
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".bashrc\"\e[1;20r\e[19;10H\e[?25l 4L, 197C"
-  - delay: 37
-    content: "\e[H\e[38;5;130m  1 \e[34m#PowerLine\r\n\e[38;5;130m  2 if [\e[39m \e[38;5;130m-f\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh \e[38;5;130m];\e[39m \e[38;5;130mthen\r\n  3 \e[8Csource\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh\r\n\e[38;5;130m  4 fi\r\n\e[94m~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                   \e[m\x0F\e[94m                                                                    \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F"
-  - delay: 21
-    content: "\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.bashrc\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_sh\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_25%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
-  - delay: 616
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 36
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 2488
-    content: "\e[?25l\e[20;1H\e[38;5;254m\e[48;5;31m\e[1m 3 \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 181
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h"
-  - delay: 810
-    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
-  - delay: 30
-    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[1;20r\e[1;35H\e[K\e[?2004h"
-  - delay: 488
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.3\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;35H\e[34h\e[?25h"
-  - delay: 1190
-    content: v
-  - delay: 20
-    content: "\bvi"
-  - delay: 89
-    content: m
-  - delay: 507
-    content: ' '
-  - delay: 167
-    content: .
-  - delay: 262
-    content: t
-  - delay: 52
-    content: m
-  - delay: 214
-    content: u
-  - delay: 91
-    content: x
-  - delay: 535
-    content: ".conf\e[1m \e[m\x0F"
-  - delay: 455
-    content: "\b \b\r\n\e[?2004l"
-  - delay: 133
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.3\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".tmux.conf\" 2L, 82C\e[1;20r\e[19;21H\e[?25l\e[H\e[38;5;130m  1 set\e[36m -g\e[39m \e[36mdefault-terminal\e[39m \e[31m\"screen-256color\"\r\n\e[38;5;130m  2 run-shell\e[39m \e[31m'powerline-config tmux setup'\r\n\e[94m~                                                                                                                       \e[4;1H~                                                                                                                       \e[5;1H~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                  \e[m\x0F\e[94m                     \e[10;1H~                                                                                                                       \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                         \e[m\x0F"
-  - delay: 42
-    content: "\e[94m              \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.tmux.conf\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_tmux\e[38;5;240m\_\e[38;5;107m\e[48;5;240m\_\_50%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
-  - delay: 2245
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.5\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 2340
-    content: "\e[?25l\e[20;1H\e[38;5;254m\e[48;5;31m\e[1m 3 \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.5\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 191
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.5\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h"
-  - delay: 816
-    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
-  - delay: 30
-    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[1;35H\e[?2004h"
-  - delay: 619
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.7\_2.6\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;35H\e[34h\e[?25h"
-  - delay: 1625
-    content: v
-  - delay: 65
-    content: "\bvi"
-  - delay: 112
-    content: m
-  - delay: 237
-    content: ' '
-  - delay: 157
-    content: .
-  - delay: 371
-    content: v
-  - delay: 70
-    content: i
-  - delay: 99
-    content: m
-  - delay: 372
-    content: r
-  - delay: 286
-    content: "c\e[1m \e[m\x0F"
-  - delay: 682
-    content: "\b \b\r\n\e[?2004l"
-  - delay: 159
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.7\_2.6\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:50\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".vimrc\" 4L, 114C\e[1;20r\e[19;18H\e[?25l"
-  - delay: 48
-    content: "\e[H\e[38;5;130m  1 \e[34m\" PowerLine\r\n\e[38;5;130m  2 set\e[39m \e[35mrtp\e[39m+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/\r\n\e[38;5;130m  3 set\e[39m \e[35mlaststatus\e[39m=2\r\n\e[38;5;130m  4 set\e[39m \e[35mt_Co\e[39m=256\r\n\e[94m~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                                                                                       \e[11;1H~                        \e[m\x0F\e[94m                                                                                               \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[m\x0F"
-  - delay: 21
-    content: "\e[38;5;245m\e[48;5;240m\_\e[38;5;250m./\e[38;5;231m\e[1m.vimrc\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_vim\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_25%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
-  - delay: 1246
-    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_100%\e[7C\e[38;5;235m\e[48;5;252m\e[1m4\e[4;5H\e[m\x0F"
-  - delay: 451
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.6\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[4;5H\e[34h\e[?25h"
-  - delay: 1540
-    content: "\e[19;1H\e[K:\e[?25l\e[34h\e[?25h"
-  - delay: 258
-    content: q
-  - delay: 313
-    content: "\r"
-  - delay: 7
-    content: "\e[K\e[2;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .vimrc\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.6\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[2;1H \r"
   - delay: 29
-    content: "\e[1;19r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[2;35H\e[?2004h"
-  - delay: 1818
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.6\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;35H\e[34h\e[?25h"
-  - delay: 511
-    content: v
-  - delay: 76
-    content: "\bvi"
-  - delay: 158
-    content: m
-  - delay: 170
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h"
+  - delay: 873
+    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
+  - delay: 32
+    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[1;35H\e[?2004h"
+  - delay: 751
+    content: l
+  - delay: 92
+    content: "\bls"
+  - delay: 313
     content: ' '
-  - delay: 257
-    content: R
   - delay: 191
-    content: E
-  - delay: 343
-    content: "\a\r\n\e[1;19r\e[4;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;1H\e[KREADME.md                \r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;26H\e[Krender1564512040835.gif\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;49H\e[K\e[2;35Hvim RE\e[K\e[1;20r\e[2;41H"
-  - delay: 1063
-    content: A
-  - delay: 218
-    content: "DME.md\e[1m \e[m\x0F"
-  - delay: 199
-    content: "\b \b\e[1;19r\e[4;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;1H\e[K\e[1;20r\e[3;1H\e[?2004l"
-  - delay: 158
-    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.6\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\"README.md\" 36L, 952C\e[1;20r\e[19;22H\e[?25l"
-  - delay: 54
-    content: "\e[H\e[38;5;130m  1 \e[35m## Ubuntu Terminal (Tmux+Powerline+Vim)\r\n\e[38;5;130m  2 \e[35m#### Terminalizer\r\n\e[38;5;130m  3 \e[39m![\e[35m\e[4mTerminal Screenshot\e[m\x0F](\e[31mhttps://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/render1564512040835.gif\e[39m)\r\n\e[38;5;130m  4 \r\n  5 \e[35m##### 1. Install Powerline\r\n\e[38;5;130m  6 \e[35m```bash\r\n\e[38;5;130m  7 \e[39msudo apt install python-pip -y\r\n\e[38;5;130m  8 \e[39msudo pip install powerline-status\r\n\e[38;5;130m  9 \e[39msudo apt install vim -y\r\n\e[38;5;130m 10 \e[35m```\r\n\e[38;5;130m 11 \r\n 12 \e[35m###### 1.1 Install Powerline fonts\r\n\e[38;5;130m 13 \e[35m```bash\r\n\e[38;5;130m 14 \e[39msudo apt install fonts-powerline -y\r\n\e[38;5;130m 15 \e[35m```\r\n\e[38;5;130m 16 \r\n 17 \e[35m###### 1.2 Append this to your ~/.bashrc file\r\n\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m.\e[m\x0F\e[38;5;250m\e[48;5;240m/\e[38;5;231m\e[1mREADME.md\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_markdown\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_\_3%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
-  - delay: 1125
-    content: "\e[1;17r\e[1;1H\e[8M\e[10;1H\e[38;5;130m 18 \e[35m```bash\r\n\e[38;5;130m 19 \e[39m#PowerLine\r\n\e[38;5;130m 20 \e[39mif [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then\r\n\e[38;5;130m 21 \e[8C\e[39msource /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh\r\n\e[38;5;130m 22 \e[39mfi\r\n\e[38;5;130m 23 \e[35m```\r\n\e[38;5;130m 24 \e[35m###### 1.3 Append this to your ~/.vimrc file\r\n\e[38;5;130m 25 \e[35m```bash\e[39m\e[19;1H\e[K\e[18;106H\e[38;5;70m\e[48;5;240m25\e[8C\e[38;5;235m\e[48;5;252m\e[1m9\e[1;20r\e[1;5H\e[m\x0F"
-  - delay: 330
-    content: "\e[1;17r\e[1;1H\e[8M\e[10;1H\e[38;5;130m 26 \e[39m\" PowerLine\r\n\e[38;5;130m 27 \e[39mset rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/\r\n\e[38;5;130m 28 \e[39mset laststatus=2\r\n\e[38;5;130m 29 \e[39mset t_Co=256\r\n\e[38;5;130m 30 \e[35m```\r\n\e[38;5;130m 31 \r\n 32 \e[35m###### 1.4 Append this to your ~/.tmux.conf file\r\n\e[38;5;130m 33 \e[35m```bash\e[18;104H\e[38;5;107m\e[48;5;240m\_\_47%\e[6C\e[38;5;235m\e[48;5;252m\e[1m17\e[1;20r\e[1;5H\e[m\x0F"
-  - delay: 337
-    content: "\e[1;17r\e[1;1H\e[3M\e[15;1H\e[38;5;130m 34 \e[39mset -g default-terminal \"screen-256color\"\r\n\e[38;5;130m 35 \e[39mrun-shell 'powerline-config tmux setup'\r\n\e[38;5;130m 36 \e[35m```\e[18;104H\e[38;5;108m\e[48;5;240m\_\_69%\e[6C\e[38;5;235m\e[48;5;252m\e[1m25\e[1;20r\e[6;5H\e[m\x0F"
-  - delay: 612
-    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_\_92%\e[6C\e[38;5;235m\e[48;5;252m\e[1m33\e[14;5H\e[m\x0F"
-  - delay: 233
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.5\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[14;5H\e[34h\e[?25h"
-  - delay: 179
-    content: "\e[18;105H\e[38;5;247m\e[48;5;240m100\e[8C\e[38;5;235m\e[48;5;252m\e[1m6\e[17;5H\e[m\x0F"
-  - delay: 2533
-    content: "\e[19;1H:"
-  - delay: 344
-    content: q
-  - delay: 932
-    content: "\r"
-  - delay: 7
-    content: "\e[K\e[3;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .vimrc\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim README.md\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.5\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[3;1H \r"
-  - delay: 7
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.3\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;1H\e[34h\e[?25h"
-  - delay: 23
-    content: "\e[1;19r\e[4;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[3;35H\e[?2004h"
-  - delay: 1264
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1  \e[38;5;240m \e[38;5;249mvim   \e[38;5;231m \e[38;5;244m  2- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m3*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m          \e[38;5;233m\_\e[32m\_2.3\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;35H\e[34h\e[?25h\r\n\e[?2004l"
-  - delay: 7
-    content: "\e[?25l\e[H\e[38;5;130m  1 set\e[36m -g\e[39m \e[36mdefault-terminal\e[39m \e[31m\"screen-256color\"\e[39m\e[K\r\n\e[38;5;130m  2 run-shell\e[39m \e[31m'powerline-config tmux setup'\e[39m\e[K\r\n\e[94m~                                                                                                                       \e[4;1H~                                                                                                                       \e[5;1H~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                                                                                       \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.tmux.conf\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_tmux\e[38;5;240m\_\e[38;5;107m\e[48;5;240m\_\_50%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[19;1H\e[39m\e[49m\".tmux.conf\" 2L, 82C\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.3\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 811
-    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_100%\e[7C\e[38;5;235m\e[48;5;252m\e[1m2\e[2;5H\e[m\x0F"
-  - delay: 3148
-    content: "\e[19;1H\e[K:"
-  - delay: 279
-    content: q
-  - delay: 465
-    content: "\e[?25l\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[19;3H\e[34h\e[?25h"
-  - delay: 197
-    content: "\r"
-  - delay: 7
-    content: "\e[K\e[2;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .tmux.conf\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[2;1H \r"
-  - delay: 34
-    content: "\e[1;19r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[2;35H\e[?2004h"
-  - delay: 201
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0  \e[38;5;240m \e[38;5;249mzsh   \e[38;5;231m \e[38;5;244m  1- \e[38;5;240m \e[38;5;31mvim   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m2*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                        \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;35H\e[34h\e[?25h"
-  - delay: 1039
+    content: '-'
+  - delay: 226
+    content: l
+  - delay: 202
+    content: a
+  - delay: 190
+    content: h
+  - delay: 359
     content: "\r\n\e[?2004l"
   - delay: 8
-    content: "\e[?25l\e[H\e[38;5;130m  1 \e[34m#PowerLine\e[39m\e[K\r\n\e[38;5;130m  2 if [\e[39m \e[38;5;130m-f\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh \e[38;5;130m];\e[39m \e[38;5;130mthen\e[39m                        \e[K\r\n\e[38;5;130m  3 \e[39m        \e[38;5;130msource\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh                         \e[K\r\n\e[38;5;130m  4 fi\e[39m\e[K\r\n\e[94m~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                                                                                       \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.bashrc\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_sh\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_25%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[19;1H\e[39m\e[49m\".bashrc\" 4L, 197C\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
-  - delay: 1117
-    content: "\e[19;1H\e[K:\e[?25l\e[34h\e[?25h"
-  - delay: 281
+    content: "total 672\r\ndrwxr-xr-x   9 royce  staff   288B Jul 30 14:01 \e[36m\e[1m.\r\n\e[m\x0Fdrwxr-xr-x  15 royce  staff   480B Jul 25 11:35 \e[36m\e[1m..\r\n\e[m\x0F-rw-r--r--   1 royce  staff   197B Jul 19 15:47 .bashrc\r\ndrwxr-xr-x  12 royce  staff   384B Jul 30 14:02 \e[36m\e[1m.git\r\n\e[m\x0F-rw-r--r--   1 royce  staff    82B Jul 19 15:47 .tmux.conf\r\n-rw-r--r--   1 royce  staff   114B Jul 19 15:47 .vimrc\r\n-rw-r--r--   1 royce  staff   952B Jul 30 13:57 README.md\r\n-rw-r--r--   1 royce  staff   172K Jul 19 16:11 terminal.png\r\n-rw-r--r--   1 royce  staff   119K Jul 19 16:22 vim.png\r\n\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[12;1H \r"
+  - delay: 31
+    content: "\e[1;19r\e[13;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[7A\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[12;35H\e[?2004h"
+  - delay: 735
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.7\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[12;35H\e[34h\e[?25h"
+  - delay: 1100
+    content: "\e[?25l\e[20;1H\e[38;5;254m\e[48;5;31m\e[1m 4 \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.7\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[12;35H\e[34h\e[?25h"
+  - delay: 259
+    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.7\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;1H\e[34h\e[?25h\e[?2004l"
+  - delay: 754
+    content: "\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[1;1H \e[H"
+  - delay: 31
+    content: "\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[1;35H\e[?2004h"
+  - delay: 1264
+    content: v
+  - delay: 191
+    content: "\bvi"
+  - delay: 183
+    content: m
+  - delay: 256
+    content: ' '
+  - delay: 149
+    content: .
+  - delay: 191
+    content: b
+  - delay: 89
+    content: a
+  - delay: 22
+    content: s
+  - delay: 223
+    content: "hrc\e[1m \e[m\x0F"
+  - delay: 439
+    content: "\b \b\r\n\e[?2004l"
+  - delay: 212
+    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".bashrc\"\e[1;20r\e[19;10H\e[?25l 4L, 197C"
+  - delay: 33
+    content: "\e[H\e[38;5;130m  1 \e[34m#PowerLine\r\n\e[38;5;130m  2 if [\e[39m \e[38;5;130m-f\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh \e[38;5;130m];\e[39m \e[38;5;130mthen\r\n  3 \e[8Csource\e[39m /usr/local/lib/python2.\e[31m7\e[39m/dist-packages/powerline/bindings/bash/powerline.sh\r\n\e[38;5;130m  4 fi\r\n\e[94m~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                   \e[m\x0F\e[94m                                                                    \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F"
+  - delay: 24
+    content: "\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.bashrc\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_sh\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_25%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.7\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
+  - delay: 32
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
+  - delay: 898
+    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_100%\e[7C\e[38;5;235m\e[48;5;252m\e[1m4\e[4;5H\e[m\x0F"
+  - delay: 1237
+    content: "\e[19;1H\e[K:"
+  - delay: 274
     content: q
-  - delay: 315
+  - delay: 259
     content: "\r"
   - delay: 7
-    content: "\e[K\e[2;1H"
-  - delay: 5
-    content: "\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F vim .bashrc\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[2;1H \r"
+    content: "\e[K\e[2;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .bashrc\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[2;1H \r"
+  - delay: 36
+    content: "\e[1;19r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[2;35H\e[?2004h"
+  - delay: 579
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;35H\e[34h\e[?25hv"
+  - delay: 119
+    content: "\bvi"
+  - delay: 169
+    content: m
+  - delay: 271
+    content: ' '
+  - delay: 178
+    content: .
+  - delay: 237
+    content: t
+  - delay: 115
+    content: m
+  - delay: 165
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;42H\e[34h\e[?25h"
+  - delay: 35
+    content: u
+  - delay: 154
+    content: "x.conf\e[1m \e[m\x0F"
+  - delay: 453
+    content: "\b \b\r\n\e[?2004l"
+  - delay: 129
+    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".tmux.conf\"\e[1;20r\e[19;13H\e[?25l 2L, 82C"
+  - delay: 6
+    content: "\e[H\e[38;5;130m  1 set\e[36m -g\e[39m \e[36mdefault-terminal\e[39m \e[31m\"screen-256color\"\r\n\e[38;5;130m  2 run-shell\e[39m \e[31m'powerline-config tmux setup'\r\n\e[94m~                                                                                                                       \e[4;1H~                                                                                                                       \e[5;1H~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                  \e[m\x0F\e[94m                     \e[10;1H~                                                                                                                       \e[11;1H~                                                                                                                       \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                         \e[m\x0F"
+  - delay: 39
+    content: "\e[94m              \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m./\e[38;5;231m\e[1m.tmux.conf\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_tmux\e[38;5;240m\_\e[38;5;107m\e[48;5;240m\_\_50%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
+  - delay: 762
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
+  - delay: 14
+    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_100%\e[7C\e[38;5;235m\e[48;5;252m\e[1m2\e[2;5H\e[m\x0F"
+  - delay: 1491
+    content: "\e[19;1H\e[K:"
+  - delay: 394
+    content: q
+  - delay: 607
+    content: "\r"
+  - delay: 6
+    content: "\e[K\e[3;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .bashrc\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .tmux.conf\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[3;1H \r"
   - delay: 31
-    content: "\e[1;19r\e[3;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[2;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F \e[K\e[1;20r\e[2;33H\e[?2004h"
-  - delay: 726
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.2\_2.5\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;33H\e[34h\e[?25h"
-  - delay: 33
-    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_2.1\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[2;33H\e[34h\e[?25h"
-  - delay: 356
-    content: "\r\n\e[?2004l"
-  - delay: 5
-    content: "\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F ls -lah\e[K\r\ntotal 6832\e[K\r\ndrwxr-xr-x  10 royce  staff   320B Jul 30 13:50 \e[36m\e[1m.\e[m\x0F\e[K\r\ndrwxr-xr-x  15 royce  staff   480B Jul 25 11:35 \e[36m\e[1m..\e[m\x0F\e[K\r\n-rw-r--r--   1 royce  staff   197B Jul 19 15:47 .bashrc\e[K\r\ndrwxr-xr-x  12 royce  staff   384B Jul 30 13:50 \e[36m\e[1m.git\e[m\x0F\e[K\r\n-rw-r--r--   1 royce  staff    82B Jul 19 15:47 .tmux.conf\e[K\r\n-rw-r--r--   1 royce  staff   114B Jul 19 15:47 .vimrc\e[K\r\n-rw-r--r--   1 royce  staff   952B Jul 30 13:44 README.md\e[K\r\n-rw-r--r--@  1 royce  staff   2.8M Jul 30 13:43 render1564512040835.gif                                                \e[K\r\n-rw-r--r--   1 royce  staff   172K Jul 19 16:11 terminal.png                                                           \e[K\r\n-rw-r--r--   1 royce  staff   119K Jul 19 16:22 vim.png\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m)\e[m\x0F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 3 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_2.1\_2.4\_2.4\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_13:51\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[13;33H\e[34h\e[?25h\e[?2004h"
-  - delay: 1728
+    content: "\e[1;19r\e[4;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[3;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[3;35H\e[?2004h"
+  - delay: 729
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[3;35H\e[34h\e[?25hv"
+  - delay: 97
+    content: "\bvi"
+  - delay: 171
+    content: m
+  - delay: 121
+    content: ' '
+  - delay: 159
+    content: .
+  - delay: 313
+    content: v
+  - delay: 81
+    content: i
+  - delay: 88
+    content: m
+  - delay: 336
+    content: "rc\e[1m \e[m\x0F"
+  - delay: 395
+    content: "\b \b\r\n\e[?2004l"
+  - delay: 129
+    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[4;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\".vimrc\"\e[1;20r\e[19;9H\e[?25l 4L, 114C"
+  - delay: 48
+    content: "\e[H\e[38;5;130m  1 \e[34m\" PowerLine\r\n\e[38;5;130m  2 set\e[39m \e[35mrtp\e[39m+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/\r\n\e[38;5;130m  3 set\e[39m \e[35mlaststatus\e[39m=2\r\n\e[38;5;130m  4 set\e[39m \e[35mt_Co\e[39m=256\r\n\e[94m~                                                                                                                       \e[6;1H~                                                                                                                       \e[7;1H~                                                                                                                       \e[8;1H~                                                                                                                       \e[9;1H~                                                                                                                       \e[10;1H~                                                                                                                       \e[11;1H~                        \e[m\x0F\e[94m                                                                                               \e[12;1H~                                                                                                                       \e[13;1H~                                                                                                                       \e[14;1H~                                                                                                                       \e[15;1H~                                                                                                                       \e[16;1H~                                                                                                                       \e[17;1H~                                                                                                                       \e[18;1H\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[m\x0F"
+  - delay: 20
+    content: "\e[38;5;245m\e[48;5;240m\_\e[38;5;250m./\e[38;5;231m\e[1m.vimrc\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_vim\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_25%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
+  - delay: 752
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
+  - delay: 13
+    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_100%\e[7C\e[38;5;235m\e[48;5;252m\e[1m4\e[4;5H\e[m\x0F"
+  - delay: 1234
+    content: "\e[19;1H\e[K:"
+  - delay: 348
+    content: q
+  - delay: 649
+    content: "\r"
+  - delay: 6
+    content: "\e[?25l\e[K\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .bashrc\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .tmux.conf\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .vimrc\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[4;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[4;1H \r"
+  - delay: 28
+    content: "\e[1;19r\e[5;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[4;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[4;35H\e[?2004h"
+  - delay: 609
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[4;35H\e[34h\e[?25hv"
+  - delay: 88
+    content: "\bvi"
+  - delay: 168
+    content: m
+  - delay: 305
+    content: ' '
+  - delay: 246
+    content: R
+  - delay: 145
+    content: E
+  - delay: 349
+    content: A
+  - delay: 257
+    content: "DME.md\e[1m \e[m\x0F"
+  - delay: 339
+    content: "\b \b\r\n\e[?2004l"
+  - delay: 134
+    content: "\e[?25l\e[H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[5;1H\e[34h\e[?25h\e[1;19r\e[2;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[H\e[K\e[19;1H\"README.md\"\e[1;20r\e[19;12H\e[?25l 36L, 952C"
+  - delay: 54
+    content: "\e[H\e[38;5;130m  1 \e[35m## Ubuntu Terminal (Tmux+Powerline+Vim)\r\n\e[38;5;130m  2 \e[35m#### Terminalizer\r\n\e[38;5;130m  3 \e[39m![\e[35m\e[4mTerminal Screenshot\e[m\x0F](\e[31mhttps://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/render1564512721953.gif\e[39m)\r\n\e[38;5;130m  4 \r\n  5 \e[35m##### 1. Install Powerline\r\n\e[38;5;130m  6 \e[35m```bash\r\n\e[38;5;130m  7 \e[39msudo apt install python-pip -y\r\n\e[38;5;130m  8 \e[39msudo pip install powerline-status\r\n\e[38;5;130m  9 \e[39msudo apt install vim -y\r\n\e[38;5;130m 10 \e[35m```\r\n\e[38;5;130m 11 \r\n 12 \e[35m###### 1.1 Install Powerline fonts\r\n\e[38;5;130m 13 \e[35m```bash\r\n\e[38;5;130m 14 \e[39msudo apt install fonts-powerline -y\r\n\e[38;5;130m 15 \e[35m```\r\n\e[38;5;130m 16 \r\n 17 \e[35m###### 1.2 Append this to your ~/.bashrc file\r\n\e[38;5;22m\e[48;5;148m\e[1m\_NORMAL\_\e[m\x0F\e[38;5;148m\e[48;5;240m\_\e[38;5;250m\_master\_\e[38;5;245m\_\e[38;5;250m.\e[m\x0F\e[38;5;250m\e[48;5;240m/\e[38;5;231m\e[1mREADME.md\_\e[m\x0F\e[38;5;240m\e[48;5;236m\_\e[38;5;231m\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\e[38;5;247munix\e[38;5;244m\_\e[38;5;247m\_utf-8\e[38;5;244m\_\e[38;5;247m\_markdown\e[38;5;240m\_\e[38;5;70m\e[48;5;240m\_\_\_3%\e[38;5;252m\_\e[38;5;235m\e[48;5;252m\_\_\e[1m\_\_1\e[m\x0F\e[38;5;22m\e[48;5;252m:1\_\_\e[1;5H\e[34h\e[?25h\e[m\x0F"
+  - delay: 1321
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[1;5H\e[34h\e[?25h"
+  - delay: 15
+    content: "\e[1;17r\e[1;1H\e[8M\e[10;1H\e[38;5;130m 18 \e[35m```bash\r\n\e[38;5;130m 19 \e[39m#PowerLine\r\n\e[38;5;130m 20 \e[39mif [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then\r\n\e[38;5;130m 21 \e[8C\e[39msource /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh\r\n\e[38;5;130m 22 \e[39mfi\r\n\e[38;5;130m 23 \e[35m```\r\n\e[38;5;130m 24 \e[35m###### 1.3 Append this to your ~/.vimrc file\r\n\e[38;5;130m 25 \e[35m```bash\e[39m\e[19;1H\e[K\e[18;106H\e[38;5;70m\e[48;5;240m25\e[8C\e[38;5;235m\e[48;5;252m\e[1m9\e[1;20r\e[1;5H\e[m\x0F"
+  - delay: 571
+    content: "\e[1;17r\e[1;1H\e[8M\e[10;1H\e[38;5;130m 26 \e[39m\" PowerLine\r\n\e[38;5;130m 27 \e[39mset rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/\r\n\e[38;5;130m 28 \e[39mset laststatus=2\r\n\e[38;5;130m 29 \e[39mset t_Co=256\r\n\e[38;5;130m 30 \e[35m```\r\n\e[38;5;130m 31 \r\n 32 \e[35m###### 1.4 Append this to your ~/.tmux.conf file\r\n\e[38;5;130m 33 \e[35m```bash\e[18;104H\e[38;5;107m\e[48;5;240m\_\_47%\e[6C\e[38;5;235m\e[48;5;252m\e[1m17\e[1;20r\e[1;5H\e[m\x0F"
+  - delay: 462
+    content: "\e[1;17r\e[1;1H\e[3M\e[15;1H\e[38;5;130m 34 \e[39mset -g default-terminal \"screen-256color\"\r\n\e[38;5;130m 35 \e[39mrun-shell 'powerline-config tmux setup'\r\n\e[38;5;130m 36 \e[35m```\e[18;104H\e[38;5;108m\e[48;5;240m\_\_69%\e[6C\e[38;5;235m\e[48;5;252m\e[1m25\e[1;20r\e[6;5H\e[m\x0F"
+  - delay: 529
+    content: "\e[18;104H\e[38;5;247m\e[48;5;240m\_\_92%\e[6C\e[38;5;235m\e[48;5;252m\e[1m33\e[14;5H\e[m\x0F"
+  - delay: 722
+    content: "\e[18;105H\e[38;5;247m\e[48;5;240m100\e[8C\e[38;5;235m\e[48;5;252m\e[1m6\e[17;5H\e[m\x0F"
+  - delay: 1147
+    content: "\e[19;1H:"
+  - delay: 355
+    content: q
+  - delay: 1687
+    content: "\r"
+  - delay: 7
+    content: "\e[K\e[5;1H\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .bashrc\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .tmux.conf\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim .vimrc\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F vim README.md\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mvim \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[5;1H\e[34h\e[?25h\e[1m\e[3m%\e[m\x0F                                                                                                                       \e[5;1H \r"
+  - delay: 31
+    content: "\e[1;19r\e[6;1H\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\e[5;1H\e[K\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F \e[K\e[1;20r\e[5;35H\e[?2004h"
+  - delay: 578
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.9\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[5;35H\e[34h\e[?25h"
+  - delay: 2044
+    content: "\e[?25l\e[20;1H\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;244m  0- \e[38;5;240m \e[38;5;31mzsh   \e[38;5;231m \e[38;5;233m\e[48;5;31m \e[38;5;117m1*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                      \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[5;35H\e[34h\e[?25h"
+  - delay: 1083
+    content: e
+  - delay: 156
+    content: "\bex"
+  - delay: 114
+    content: i
+  - delay: 405
+    content: t
+  - delay: 257
+    content: "\r\n\e[?2004l\e[?25l\e[H\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F ls -lah\e[K\r\ntotal 672\e[K\r\ndrwxr-xr-x   9 royce  staff   288B Jul 30 14:01 \e[36m\e[1m.\e[m\x0F\e[K\r\ndrwxr-xr-x  15 royce  staff   480B Jul 25 11:35 \e[36m\e[1m..\e[m\x0F\e[K\r\n-rw-r--r--   1 royce  staff   197B Jul 19 15:47 .bashrc\e[K\r\ndrwxr-xr-x  12 royce  staff   384B Jul 30 14:02 \e[36m\e[1m.git\e[m\x0F\e[K\r\n-rw-r--r--   1 royce  staff    82B Jul 19 15:47 .tmux.conf\e[K\r\n-rw-r--r--   1 royce  staff   114B Jul 19 15:47 .vimrc\e[K\r\n-rw-r--r--   1 royce  staff   952B Jul 30 13:57 README.md\e[K\r\n-rw-r--r--   1 royce  staff   172K Jul 19 16:11 terminal.png                                                           \e[K\r\n-rw-r--r--   1 royce  staff   119K Jul 19 16:22 vim.png\e[K\r\n\e[32m\e[1m➜  \e[36mubuntu-terminal\e[m\x0F \e[34m\e[1mgit:(\e[31mmaster\e[34m) \e[33m✗\e[m\x0F\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[K\r\n\e[38;5;16m\e[48;5;254m\e[1m 4 \e[m\x0F\e[38;5;254m\e[48;5;233m \e[38;5;233m\e[48;5;31m \e[38;5;117m0*  \e[38;5;231m\e[1mzsh \e[m\x0F\e[38;5;31m\e[48;5;233m \e[38;5;231m                                                    \e[38;5;233m\_\e[32m\_1.8\_2.1\_2.3\e[38;5;236m\_\e[38;5;247m\e[48;5;236m\_2019-07-30\e[38;5;241m\_\e[38;5;252m\e[1m\_14:02\e[m\x0F\e[38;5;252m\e[48;5;236m\_\e[38;5;16m\e[48;5;252m\e[1m\_\_rdc01.lan\_\e[m\x0F\e[12;35H\e[34h\e[?25h\e[?2004h"
+  - delay: 4103
     content: "\r\n\e[?2004l"
   - delay: 5
     content: "\e[1;20r\e[m\x0F\e[?1l\e>\e[H\e[J\e[34h\e[?25h\e[?1000l\e[?1002l\e[?1006l\e[?1005l\e[?1049l[exited]\r\n"

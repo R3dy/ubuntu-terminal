@@ -1,6 +1,6 @@
 ## Ubuntu Terminal (Tmux+Powerline+Vim)
 #### Tmux
-![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/terminal.png)
+![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/render1564499055488.gif)
 
 #### Vim
 ![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/vim.png)

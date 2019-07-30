@@ -1,6 +1,6 @@
 ## Ubuntu Terminal (Tmux+Powerline+Vim)
 #### Terminalizer
-![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/render1564501492809.gif)
+![Terminal Screenshot](https://raw.githubusercontent.com/R3dy/ubuntu-terminal/master/render1564508715110.gif)
 
 ##### 1. Install Powerline
 ```bash
